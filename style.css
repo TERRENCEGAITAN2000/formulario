@@ -25,6 +25,8 @@ form{
 }
 button{
     margin-top: 20px;
+    align-items: center;
+    align-content: center;
 }
 /*HOJA ENVIO*/
 /*.contain{
@@ -46,4 +48,11 @@ h1{
 .login button{
     margin-left: 9%;
 }
-
+.login .reg{
+    margin-left: 30px;
+    align-items: center;
+}
+.login .olv{
+    margin-left: 0px;
+    align-items: center;
+}
