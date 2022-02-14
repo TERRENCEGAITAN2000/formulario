@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>BMW</title>
+</head>
+<body>
+    <div class="container">
+        <form action="./envio.html" method="get" required>
+            <h3>INGRESE SU NOMBRE</h3>
+            <input type="text" placeholder="INGRESE SU NOMBRE" required>
+            <h3>APELLIDOS</h3>
+            <input type="text" placeholder="INGRESE SUS APELLIDOS" required>
+            <h3>CORREO</h3>
+            <input type="text" placeholder="INGRESE SU EMAIL" required>
+            <h3>SELECCIONE SU TIPO DE DOCUMENTO</h3>
+            <select name="seleccionar" required> 
+                <option value="">SELECCIONAR</option>
+                <option value="">TARJETA DE IDENTIDAD</option>
+                <option value="">CEDULA DE CIUDADANIA</option>
+                <option value="">CEDULA DE EXTRANJERIA</option>
+                <option value="">PASAPORTE</option>
+            </select>
+            <h3>IDENTIFICACIÓN</h3>
+            <input type="number" placeholder="INGRESE SU DOCUMENTO" required>
+            <h3>ADJUNTAR FOTO SUYA</h3>
+                <input type="file" name="imagen" required> 
+            <h3>SELECCIONE SU CIUDAD</h3>
+            <select name="seleccionar" required> 
+                <option value="">SELECCIONAR</option>
+                <option value="">BOGOTÁ</option>
+                <option value="">MEDELLIN</option>
+                <option value="">PEREIRA</option>
+                <option value="">CARTAGENA</option>
+                <option value="">CALI</option>
+                <option value="">BARRANQUILLA</option>
+                <option value="">SOACHA</option>
+                <option value="">CUCUTA</option>
+                <option value="">SOLEDAD</option>
+                <option value="">BELLO</option>
+                <option value="">VILLAVICENCIO</option>
+                <option value="">IBAGUE</option>
+                <option value="">SANTA MARTA</option>
+                <option value="">VALLEDUPAR</option>
+                <option value="">MANIZALES</option>
+                <option value="">MONTERIA</option>
+                <option value="">NEIVA</option>
+                <option value="">PASTO</option>
+                <option value="">ARMENIA</option>
+            </select>
+            <h3>SELECCIONE SU GENERO</h3>
+            <input type="radio" required>
+            MASCULINO
+            <input type="radio" required>
+            FEMENINO
+            <input type="radio" required>
+            PREFIERO NO DECIRLO
+            <h3>TELEFONO</h3>
+            <input type="number" placeholder="INGRESE SU NÚMERO" required>
+            <br>
+                <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+</body>
+</html>

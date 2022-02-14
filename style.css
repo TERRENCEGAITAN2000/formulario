@@ -1,0 +1,49 @@
+/*HOJA INDEX*/
+body, html{
+    background-image: url(./fotofondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -1px;
+}
+.container{
+   padding-left: 40%;             
+   color: blue;
+   align-items: center;
+}
+select{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: blue;
+}
+form{
+    color: blue;
+}
+button{
+    margin-top: 20px;
+}
+/*HOJA ENVIO*/
+/*.contain{
+    margin-top: 40%;
+    padding-left: 30%;
+    background: transparent;
+}*/
+h1{
+    color: white;
+    background-color: transparent;
+    margin: 30%;
+}
+/*HOJA LOGIN*/
+.login{
+    align-items: center;
+    margin: 20%;
+    padding-left: 20%;
+}
+.login button{
+    margin-left: 9%;
+}
+
